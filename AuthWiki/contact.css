@@ -1,0 +1,65 @@
+*{
+    margin: 0%;
+}
+body {
+    text-align: center;
+}
+.control{
+   text-align: center;
+    display: block;
+    justify-items: center;
+    
+}
+.control form{
+    text-align: center;
+}
+.text > *{
+    margin: 1rem;
+
+}
+label{
+
+text-align:right;
+}
+.wrap{
+    width: 25%;
+    margin: auto;
+    text-align: center;
+}
+
+#enquiry{
+    display: block;
+    width: 24rem;
+    margin: auto;
+    padding: 0.5rem;
+    border-radius: 0.4rem;
+    border: 1px solid  #1E0B94;
+}
+
+
+button{
+    display: block;
+    text-align: center;
+    width: 25rem;
+    margin: auto;
+    background: #1E0B94;
+    color: white;
+    padding: 0.5rem;
+    border-radius: 0.4rem;
+}
+.wrap input{
+    display: block;
+    width: 23rem;
+    margin: auto;
+    margin-top: 1rem;
+    padding: 0.5rem;
+    border-radius: 0.4rem;
+    border: 1px solid  #1E0B94;
+
+}
+.help{
+    color: #1E0B94;
+}
+.join > *{
+    margin-top: 1rem;
+}
