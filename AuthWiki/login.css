@@ -5,7 +5,8 @@
     margin: auto;
     width: 50%;
     text-align: center;
-    border: 1px solid #1E0B94;;
+    border: 1px solid #1E0B94;
+    background-image: url(background.png);
 }
 
 form input{
