@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+}
+.butt{
+    padding: 0.2rem;
+    background: #1E0B94;
+    border-radius: 0.7rem;
+    color: white;
+    font-weight: bold;
+    width:5rem;
+
+}
+.library{
+    padding: 0,2rem;
+    background: #1E0B94;
+    border-radius: 0.7rem;
+    color: white;
+    font-weight: bold;
+    width: 5rem;
+
+}
+.combine{
+    display: flex;
+    align-items: center;
+    flex-flow: row wrap;
+    gap: 6%;
+    justify-content: space-around;
+    
+}
+.combine > *{
+    flex-basis: 21%;
+}
+
+
+/* @media(min-width:650px){
+    .combine > *{
+        flex-basis: 19%;
+
+    }
+    .combine{
+        gap: 7%;
+        justify-content: space-around;
+    }
+} */
+
+
+/* tablet and desktop view */
+@media(min-width:550px){
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid black;
+    
+}
+.wrapper{
+    justify-content: space-around;
+}
+ul{
+    display: flex;
+    list-style: none;
+}
+  .menu ul li{
+    text-decoration: none;
+    margin-left: 5rem;
+    border: 1px solid blue;
+}
+
+.menu{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* .combine{
+    display: flex;
+    align-items: center;
+    flex-flow: row wrap;
+    gap: 4%;
+    
+}
+.combine > *{
+    flex-basis: 21%;
+} */
+.layout > *{
+    flex-basis: 18%;
+}
+.pics img{
+    max-width: 100%;
+}
+
+.layout{
+    display: flex;
+    flex-flow:row wrap;
+    gap: 4%;
+    align-items: center;
+    justify-content: space-around;
+}
+.layout > *{
+    flex-basis: 48%;
+}
+.dev-test{
+    display: flex;
+    align-items: center;
+    flex-wrap: row wrap;
+    gap: 7%;
+    justify-content: space-around;
+}
+.dev-test > *{
+    flex-basis: 21%;
+}
+.reaction{
+    display: flex;
+    align-items: center;
+    flex-wrap: row wrap;
+    gap: 7;
+    justify-content: space-around;
+}
+.reaction > *{
+    flex-basis: 21%;
+}
+
+}
