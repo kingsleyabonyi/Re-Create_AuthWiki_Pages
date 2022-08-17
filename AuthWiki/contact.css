@@ -47,6 +47,9 @@ button{
     padding: 0.5rem;
     border-radius: 0.4rem;
 }
+.control label{
+    margin-left: 12rem;
+}
 .wrap input{
     display: block;
     width: 23rem;
