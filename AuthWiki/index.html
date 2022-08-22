@@ -20,7 +20,7 @@
                 <i class="fa fa-search"></i>
             </div>
             <div class="menu">
-                <ul>
+                <ul id="menuList">
                     <a href="index.html">
                         <li>Home</li>
                     </a>
@@ -34,6 +34,7 @@
                         <li>Documentation</li>
                     </a>
                 </ul>
+                <img src="menu.jpg" alt="menu" class="menu-icon" onclick="togglemenu()">
                 
             </div>
             <div class="butt"><a href="Login.html">Log out</a></div>
@@ -89,8 +90,8 @@
 
         </main>
         <section>
-            <div>
-                <h1>How it Works</h1>
+            <div class="working">
+                <h1 class="how-works">How it Works</h1>
             </div>
             <div class="combine">
                 <div>
@@ -113,42 +114,42 @@
                     <h3>Enjoy!!!!!!!</h3>
                 </div>
             </div>
-            <div>
-                <h1>Most downloaded codes</h1>
+            <div class="most">
+                <h1 class="code">Most downloaded codes</h1>
             </div>
             <div class="reaction">
-                <div>
+                <div class="border-line">
                     <h2>AuthWiki-HTTp-Bearer</h2>
                     <p>HTTP Bearer authentication strategy for AuthWiki</p>
-                    <div>
-                        <img src="Vector.png" alt="downloadIcon"><span>880,654</span>
+                    <div class="vector">
+                        <img src="Vector.png" alt="downloadIcon" class="down"><span>880,654</span>
                         <img src="Vector(1).png" alt="thumbs-up"><span>88,590</span>
                         <img src="Vector(2).png" alt="thumbs-down"><span>500</span>
                     </div>
                 </div>
-                <div>
+                <div class="border-line">
                     <h2>AuthWiki-HTTp-Bearer</h2>
                     <p>HTTP Bearer authentication strategy for AuthWiki</p>
-                    <div>
-                        <img src="Vector.png" alt="downloadIcon"><span>880,654</span>
+                    <div class="vector">
+                        <img src="Vector.png" alt="downloadIcon" class="down"><span>880,654</span>
                         <img src="Vector(1).png" alt="thumbs-up"><span>88,590</span>
                         <img src="Vector(2).png" alt="thumbs-down"><span>500</span>
                     </div>
 
                 </div>
 
-                <div>
+                <div class="border-line">
                     <h2>AuthWiki-HTTp-Bearer</h2>
                     <p>HTTP Bearer authentication strategy for AuthWiki</p>
-                    <div>
-                        <img src="Vector.png" alt="downloadIcon"><span>880,654</span>
+                    <div class="vector">
+                        <img src="Vector.png" alt="downloadIcon" class="down"><span>880,654</span>
                         <img src="Vector(1).png" alt="thumbs-up"><span>88,590</span>
                         <img src="Vector(2).png" alt="thumbs-down"><span>500</span>
                     </div>
                 </div>
             </div>
-            <div>
-                <h1 class="test"></h1>Developers's testimonies
+            <div class="testimony">
+                <h1 class="test">Developers's testimonies</h1>
             </div>
             <div class="dev-test">
                 <div>
@@ -158,9 +159,9 @@
                         dynamic tool.
                         There's just so many ways to use this as a liaison between different teams and different
                         knowledge bases.
-                    </p>
-                    <span>Charlse Emmanuel</span>
-                    <span>Python developer</span>
+                    </p><br>
+                    <p>Charlse Emmanuel</p>
+                    <p>Python developer</p>
                 </div>
                 <div>
                     <img src="IMG-20220513-WA0005 1.png" alt="photo2">
@@ -168,24 +169,39 @@
                         I started using <span>Auth</span><span>Wiki</span> and saw how nice it was to have a repository
                         of information,
                         we started to see it spread to other teams.
-                    </p>
-                    <span>Charlse Philip</span>
-                    <span>Backend developer</span>
+                    </p><br>
+                    <p>Charlse Philip</p>
+                    <p>Backend developer</p>
                 </div>
                 <div>
                     <img src="1654801357559 1.png" alt="photo3">
                     <p>
                         Had no idea of the enormous advantages that it would bring me when i started working with <span
                             class="auth">Auth</span><span class="wiki">Wiki</span>.
-                        My experience so far has been good.
-                        <span>James Emmanuel</span>
-                        <span>Frontend developer</span>
-                    </p>
+                        My experience so far has been good.</p><br>
+                       <p>James Emmanuel</p>
+                        <p>Frontend developer</p>
+                    
 
                 </div>
 
             </div>
     </div>
+    </section>
+    <section>
+        <div class="mobile">
+            <div>
+            <img src="Frame 427318965.png" alt="">
+            <p>What i love about <span class="auth">auth</span><span class="wiki">Wiki</span> is that it's very dynamic tool. There are so many ways to use this as a liaison between different teams and different language bases.</p><br>
+            <p>Charles Emmanuel</p><p><span class="end">Frontend Development</span></p>
+
+            </div>
+            <div>
+                <img src="Frame 427318966.png" alt="">
+                <p>I started using <span class="auth">auth</span><span class="wiki">Wiki</span> and saw how nice it was to have a repository of information, we started to see it spread to other teams</p><br><p>Anna King</p><p><span class="end">Backend Developer</span></p>
+            </div>
+
+        </div>
     </section>
     <footer>
         <div class="foot">
@@ -195,6 +211,21 @@
 
     </footer>
     </div>
+    <script>
+        var menuList = document.getElementById("menuList");
+
+        menuList.style.maxHeight = "0px";
+        function togglemenu(){
+
+            if(menuList.style.maxHeight == "0px")
+            {
+                menuList.style.maxHeight = "130px";
+            }
+            else{
+                menuList.style.maxHeight ="0px";
+            }
+        }
+    </script>
 </body>
 
 </html>
